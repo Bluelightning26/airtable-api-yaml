@@ -26,9 +26,17 @@ try {
             );
 
             // Only keep the url in each Screenshot object
-            if (Array.isArray(fields.Screenshot)) {
-                fields.Screenshot = fields.Screenshot.map(s => ({ url: s.url }));
-            }
+          //  if (Array.isArray(fields.Screenshot)) {
+           //     fields.Screenshot = fields.Screenshot.map(s => ({ url: s.url }));
+//}
+        // Rename id in each Screenshot object to swirl-id-redacted
+ //           if (Array.isArray(fields.Screenshot)) {
+ //               fields.Screenshot = fields.Screenshot.map(s => ({
+ //                   ...s,
+  //                  id: 'swirl-id-redacted'
+  //              }));
+  //          }
+
 
             return {
                 id: record.id,
